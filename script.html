@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge</title>
+        <script defer src="codigocha.js"></script>
+        <link rel="stylesheet" href="stylescript.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Vector.png">
+        </header>
+        <main>
+            <section class=cajadetexto>
+                <textarea class="text-area" cols="42" rows="5" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="info">Solo letras minúsculas y sin acentos</h6> 
+                </div>
+                <div class="botones">
+                    <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class=cajademensaje>
+                <div class="contenedor-textarea">
+                    <textarea class="mensaje" cols="20" rows="10"></textarea>
+                    <div class="mensaje-con-imagen"> 
+                        <p class="parrafo-imagen1">Ningún mensaje fue encontrado </p><br>
+                        <p class="parrafo-imagen2">Ingresa el texto que deseas encriptar o desencriptar</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <Footer>
+            <p>Desarrollado por Diego Cumpa</p>
+        </Footer>
+    </body>
+    
+</html>
