@@ -46,7 +46,7 @@ main{
 }
 .mensaje{
     background: white;
-    background-image: url("Muñeco.png");
+    background-image: url("muneco.png");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 100px;
@@ -93,7 +93,7 @@ main{
     padding: 0 0 10px 0;
 }
 .info:before{
-    content: url("Vector2.png");
+    content: url("vector2.png");
     margin: 10px 5px 0 0;
 }
 .botones{
